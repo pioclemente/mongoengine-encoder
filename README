@@ -1,0 +1,12 @@
+===========
+MongoEngine-encoder
+===========
+:Info: Json Encoder for mongoengine.
+:Author: Pio Clemente (http://github.com/pioclemente)
+:Maintainer: Pio Clemente (http://github.com/pioclemente)
+
+
+
+Examples
+========
+see mongoserializer/example.py
