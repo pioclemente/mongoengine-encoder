@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-
 #MongoEngineSerializer().dumps(MongoObject)
 import mongoengine
 from mongoengine import *
 from pprint import pprint as pp
 import serializer
-
 class User(Document):
     email = StringField(required=True)
     first_name = StringField(max_length=50)

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from pymongo.dbref import DBRef
-from pymongo.objectid import ObjectId
+#from pymongo.objectid import ObjectId
+from bson.objectid import ObjectId
 import datetime
 from pprint import pprint as pp
 from mongoengine.queryset import QuerySet
